@@ -1,0 +1,31 @@
+/* line 1, ../sass/style.scss */
+body {
+  margin: 0;
+  background-color: #91aaff;
+}
+
+/* line 6, ../sass/style.scss */
+.wrapper {
+  margin: 0 auto;
+  width: 50%;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+@media (max-width: 768px) {
+  /* line 6, ../sass/style.scss */
+  .wrapper {
+    width: 75%;
+  }
+}
+@media (max-width: 480px) {
+  /* line 6, ../sass/style.scss */
+  .wrapper {
+    width: 85%;
+  }
+}
+
+/* line 19, ../sass/style.scss */
+.twogrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
